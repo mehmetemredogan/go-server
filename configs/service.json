@@ -1,0 +1,15 @@
+{
+  "general": {
+    "name": "go-server",
+    "desc": "example API Service"
+  },
+  "network": {
+    "domain": "api.example.local",
+    "port": 1998,
+    "timeout": 30
+  },
+  "ssl": {
+    "crt": "configs/certs/service-crt.pem",
+    "key": "configs/certs/service-key.pem"
+  }
+}
